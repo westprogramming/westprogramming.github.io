@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Prism - Bootstrap 4 Open Source Landing Page Template</title>
+    <title>WestProgramming - Affordable Programming Lessons</title>
     <meta name="description" content="Prism is a beautiful Bootstrap 4 template for open-source landing pages."/>
 
     <!--Google font-->
@@ -18,15 +18,15 @@
 <body>
 
 <!--Header Section-->
-<section class="bg-success pt-4 pb-6">
+<section class="pt-4 pb-6" style="background-color:#0a355f">
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto text-center">
-                <h1 class="roboto-mono-main">Affordable<br/> Programming Lessons</h1>
-                <p class="lead mb-3">By WestProgramming</p>
+                <h1 class="roboto-mono-main" style="color:white;">Affordable<br/> Programming Lessons</h1>
+                <p class="lead mb-3" style="color:white;">By WestProgramming</p>
             </div>
 			<div class="col-12 mb-3 d-flex flex-row justify-content-center">
-                <a role="button" href="#scroll-target" class="btn btn-dark">Contact</a>
+                <a role="button" href="#scroll-target" class="btn btn-light">Contact</a>
             </div>
         </div>
         <div class="row mt-1">
@@ -144,15 +144,95 @@ export const ExponentialObject{
             </div>
         </div>
 <div class="d-flex flex-column align-items-center">
-<h3 class="font-weight-medium">Standard rate: $25/hr</h3>
-<h3 class="font-weight-medium">10 lesson package (capped at 1 hour): $235</h3>
-<h3 class="font-weight-medium">20 lesson package (capped at 1 hour): $450</h3>
+<h3 class="font-weight-medium rates">Standard rate: $25/hr</h3>
+<h3 class="font-weight-medium rates">10 lesson package (capped at 1 hour): $235</h3>
+<h3 class="font-weight-medium rates">20 lesson package (capped at 1 hour): $450</h3>
   </div>
     </div>
 </section>
 
+<!--Lessons-->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2 class="text-center text-md-center">What we teach</h2>
+            </div>
+        </div>
+<div class="d-flex flex-column align-items-center">
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4 d-flex align-items-center justify-content-center"
+		style="background-color:#25b1d5"
+	>
+      <h3 class="mt-3">Python<h3/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+<ul>
+  <li>Automate tasks and write powerful scripts to boost productivity</li><br/>
+  <li>Work with Python’s clean and readable language, perfect for beginners</li><br/>
+  <li>Utlizie cutting-edge fields like Artificial Intelligence and Machine Learning with libraries like TensorFlow, PyTorch, and scikit-learn</li>
+</ul>	
+	</div>
+    </div>
+  </div>
+</div>
+	<p class="text-center" style="width:70%">
+Artificial Intelligence (AI) has arrived, transforming the world we live in and is here to stay. 
+Learn how to capitalize AI and not be left behind in this digital era—starting with Python. Begin your journey with us and master the basics today.
+
+</p>
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4 d-flex align-items-center justify-content-center"
+		style="background-color:#f3b230"
+	>
+      <h3 class="mt-3">JavaScript<h3/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+    <ul>
+  <li>Build both web and mobile applications</li><br/>
+  <li>Work seamlessly with HTML and CSS to create complete websites</li><br/>
+  <li>Power popular frameworks like React, Vue, Svelte, and Node.js</li>
+	</ul>	
+	</div>
+    </div>
+  </div>
+</div>
+	<p class="text-center" style="width:70%;">
+  Learning JavaScript opens the door to job opportunities and creative freedom in tech.
+  Even in non-technical roles like marketing, design, or project management, having JavaScript
+  knowledge helps you communicate better with developers, understand how digital products work,
+  and make smarter tech decisions.
+</p>
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4 d-flex align-items-center justify-content-center"
+		style="background-color:#29CD3F"
+	>
+      <h3 class="mt-3">SQL<h3/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+<ul>
+  <li>Learn to write statements to query data</li><br/>
+  <li>Design and implement databases</li><br/>
+  <li>Import and export data for you needs</li>
+</ul>	
+	</div>
+    </div>
+  </div>
+</div>
+	<p class="text-center" style="width:70%">
+You'll need a place to store all your valuable data in. Learn how to work with data and serve them locally or across the web.
+</p>
+</div>
+</section>
+
 <!--Contact-->
-<section class="py-6" id="scroll-target">
+<section class="py-3" id="scroll-target" style="background-color:#EFEFEF">
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
@@ -201,5 +281,30 @@ export const ExponentialObject{
   font-weight: 400;
   font-style: normal;
 }
+
+
+  @media (min-width: 350px) {
+    .rates {
+      font-size: 16.5px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    h3 {
+      font-size: 1.6rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    h3 {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    h3 {
+      font-size: 23px;
+    }
+  }
 
 </style>
