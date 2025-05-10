@@ -1,7 +1,4 @@
 $(function () {
-  // init feather icons
-  feather.replace();
-});
 
 const { createClient } = supabase;
 const myDatabase = "https://ogavfhyhpvhbcbeajubi.supabase.co";
@@ -19,3 +16,7 @@ const logInteraction = async () => {
 };
 
 logInteraction();
+  
+});
+
+
