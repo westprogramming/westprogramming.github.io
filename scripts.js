@@ -11,10 +11,10 @@ const publicKey =
 const _supabase = createClient(myDatabase, publicKey);
 
 const logInteraction = async () => {
-  const currentDateTime = new Date(Date.now()).toISOString();
+  const now = moment().format();
 
   const { error } = await _supabase.from("interaction").insert({
-    created_at: currentDateTime,
+    created_at: now,
   });
 };
 
